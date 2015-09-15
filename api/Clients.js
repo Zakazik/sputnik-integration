@@ -6,7 +6,7 @@ const phonePattern = /^0\d{9}$/;
 export default class Clients {
     static getAll() {
         return new Promise((resolve, reject) => {
-            const query = 'SELECT * FROM tbl_clients LIMIT 10';
+            const query = 'SELECT * FROM tbl_clients';
 
             db.query(query).then((clients) => {
                 co(function*(){

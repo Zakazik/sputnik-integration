@@ -4,7 +4,7 @@ import Chalk from 'chalk';
 import fetch from 'node-fetch';
 import logger from '../lib/logger';
 
-const CHUNK_SIZE = 3;
+const CHUNK_SIZE = 50;
 const SPUTNIK = Chalk.bold.blue('Sputnik API');
 const SPUTNIK_CONTACTS = SPUTNIK + ' ' + Chalk.blue('POST Contacts');
 const SPUTNIK_CONTACTS_ENDPOINT = 'https://esputnik.com.ua/api/v1/contacts';
