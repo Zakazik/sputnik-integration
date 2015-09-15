@@ -1,0 +1,12 @@
+{
+  "mysql": {
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": ""
+  },
+  "esputnik": {
+    "user": "",
+    "pass": ""
+  }
+}
